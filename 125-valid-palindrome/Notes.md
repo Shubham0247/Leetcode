@@ -1,1 +1,1 @@
-<h2>valid-palindrome Notes</h2><hr>to convert string from transform(s.begin(), s.end(), s.begin(), ::tolower);
+<h2>valid-palindrome Notes</h2><hr>to convert string from lowercase to uppercase or transform(s.begin(), s.end(), s.begin(), ::tolower);
