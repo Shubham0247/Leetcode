@@ -1,1 +1,1 @@
-<h2>valid-palindrome Notes</h2><hr>to convert transform(s.begin(), s.end(), s.begin(), ::tolower);
+<h2>valid-palindrome Notes</h2><hr>to convert string transform(s.begin(), s.end(), s.begin(), ::tolower);
