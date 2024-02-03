@@ -6,6 +6,8 @@ public:
         int start = 0;
         int end = s.length() - 1;
 
+        transform(s.begin(), s.end(), s.begin(), ::tolower);
+
         while(start <= end) {
             if(!isalnum(s[start])) {
                 start++;
@@ -14,11 +16,6 @@ public:
                 end--;
                 continue;
             } else {
-                if(s[start] >= 'A' && s[start] <= 'Z')
-                    s[start] += 32;
-                if(s[end] >= 'A' && s[end] <= 'Z')
-                    s[end] += 32;
-
                 if(s[start] != s[end])
                     return false;
             }
